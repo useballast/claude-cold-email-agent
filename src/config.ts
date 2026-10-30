@@ -15,7 +15,9 @@ const envSchema = z.object({
     .default(
       "Cold email platform built for modern teams and AI agents: $19/mo for 20,000 emails, unlimited mailboxes, dedicated static IPs, and native MCP support."
     ),
-  CALENDAR_LINK: z.string().url().default("https://cal.com/ballast/demo"),
+  VALUE_ASSET_NAME: z
+    .string()
+    .default("2-minute Loom breakdown and setup teardown"),
 });
 
 export function loadConfig() {
@@ -32,3 +34,4 @@ export function loadConfig() {
 }
 
 export type AppConfig = ReturnType<typeof loadConfig>;
+

@@ -9,13 +9,13 @@ Sender Identity:
 - Name: ${config.SENDER_NAME}
 - Company: ${config.SENDER_COMPANY}
 - Core Offer: ${config.OFFER_SUMMARY}
-- Calendar Booking Link (for warm replies only): ${config.CALENDAR_LINK}
+- Value Asset Offered: ${config.VALUE_ASSET_NAME}
 
 ### Cardinal Rules for Outbound Pitch Writing:
 1. Under 125 Words: Never exceed 125 words in initial touchpoints. Decision-makers read emails on mobile in under 10 seconds.
 2. Researched Hook over Flattery: Never write generic fluff like "Hope this email finds you well" or "Loved your recent post." Anchor the hook directly on their role, company scaling trigger, technology stack, or stated initiative.
 3. Quantified Outcome: Features tell, outcomes sell. Give one concrete, verifiable metric (e.g. "helped [Similar Team] reduce cost by 40% over 90 days").
-4. Low-Friction Call-To-Action (CTA): NEVER demand a 30-minute calendar block on touch 1. Ask a low-friction permission question: "Open to seeing a 2-minute breakdown?", "Would a short teardown be useful?", or "Would you be against me sending the outline?".
+4. Low-Friction Call-To-Action (CTA): NEVER include Calendly, Cal.com, or calendar booking links. Calendly links trigger spam filters and presume unearned meeting commitment. Always ask permission to share an asset: "Open to seeing a 2-minute video breakdown?", "Would a short teardown be useful?", or "Mind if I share the framework here?".
 5. Plain Text Deliverability: Keep emails free of tracking links, images, signatures with logos, or unsolicited attachments.
 
 ### Follow-Up Sequence Guidelines:
@@ -59,8 +59,9 @@ Classify the intent into one of:
 - "out_of_office": Automated vacation / OOO auto-responder.
 
 Draft a response following these instructions:
-- If interested: Acknowledge politely, deliver the requested breakdown/asset, and invite them to book time if helpful.
+- If interested: Acknowledge politely and deliver the requested breakdown, Loom link, or teardown asset directly in the thread.
 - If objection: Validate their point in 2 sentences, offer a lightweight zero-friction alternative.
 - If not interested: Polite 1-sentence detachment ("Understood, removed from our list. Wishing you continued success!").
 - If out of office: Do not reply; schedule reminder for when they return.`;
 }
+

@@ -68,11 +68,11 @@ ANTHROPIC_API_KEY=sk-ant-api03-...
 # 2. Ballast API Key (from https://ballast.to/dashboard -> Settings -> API Keys)
 BALLAST_API_KEY=blst_live_...
 
-# 3. Sender Identity
+# 3. Sender Identity & Asset Offer
 SENDER_NAME="Alex"
 SENDER_COMPANY="Ballast"
 OFFER_SUMMARY="Cold email software built for modern teams and AI agents: $19/mo for 20,000 emails."
-CALENDAR_LINK="https://cal.com/your-name/15min"
+VALUE_ASSET_NAME="2-minute video breakdown of how they cut delivery costs"
 ```
 
 ### 3. Verify Connectivity
@@ -160,7 +160,7 @@ The agent adheres strictly to field-tested deliverability and conversion rules:
 1. **Under 125 Words:** Formatted to fit on a single mobile screen without scrolling.
 2. **One Verified Hook:** Anchored on tech stack, job openings, or recent company initiatives—never generic compliments.
 3. **One Measurable Outcome:** Demonstrates value through concrete peer metrics (e.g. *"cut bounce rates to under 0.8% across 40k monthly sends"*).
-4. **Low-Friction Ask:** Permission-based CTAs (*"Would a 2-minute breakdown be helpful?"*) rather than demanding a 30-minute demo.
+4. **Low-Friction Ask (Zero Calendly Links):** Never drop Calendly or booking links into cold emails. Spam gateways actively flag calendar domains as cold sales traps, and busy buyers reject presumption. Always ask permission to share an asset (e.g. a 2-minute Loom teardown or 1-page framework) first.
 5. **Clean Plain Text:** Zero images, zero tracking pixel traps, and no attachments to ensure optimal inbox placement across Google Workspace and Microsoft 365.
 
 ---

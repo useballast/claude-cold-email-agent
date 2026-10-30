@@ -55,3 +55,4 @@ export interface TriageResult {
   draftedReply?: string;
   sent: boolean;
 }
+
