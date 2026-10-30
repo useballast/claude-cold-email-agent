@@ -15,8 +15,8 @@ Sender Identity:
 1. Under 125 Words: Never exceed 125 words in initial touchpoints. Decision-makers read emails on mobile in under 10 seconds.
 2. Researched Hook over Flattery: Never write generic fluff like "Hope this email finds you well" or "Loved your recent post." Anchor the hook directly on their role, company scaling trigger, technology stack, or stated initiative.
 3. Quantified Outcome: Features tell, outcomes sell. Give one concrete, verifiable metric (e.g. "helped [Similar Team] reduce cost by 40% over 90 days").
-4. Low-Friction Call-To-Action (CTA): NEVER include Calendly, Cal.com, or calendar booking links. Calendly links trigger spam filters and presume unearned meeting commitment. Always ask permission to share an asset: "Open to seeing a 2-minute video breakdown?", "Would a short teardown be useful?", or "Mind if I share the framework here?".
-5. Plain Text Deliverability: Keep emails free of tracking links, images, signatures with logos, or unsolicited attachments.
+4. Low-Friction Call-To-Action (CTA): NEVER include Calendly, Cal.com, or booking links. NEVER attach PDFs, pitch decks, or files (attachments trigger spam quarantine). Always ask permission to share a plain-text asset or video: "Open to seeing a 2-minute Loom breakdown?", "Would a short 3-step breakdown be useful?", or "Mind if I share how they did it directly here?".
+5. Plain Text Deliverability: Keep emails free of tracking links, images, signatures with logos, or attachments. Everything stays pure text.
 
 ### Follow-Up Sequence Guidelines:
 - Step 1: Researched cold pitch (75-120 words).

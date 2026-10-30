@@ -68,11 +68,11 @@ ANTHROPIC_API_KEY=sk-ant-api03-...
 # 2. Ballast API Key (from https://ballast.to/dashboard -> Settings -> API Keys)
 BALLAST_API_KEY=blst_live_...
 
-# 3. Sender Identity & Asset Offer
+# 3. Sender Identity
 SENDER_NAME="Alex"
 SENDER_COMPANY="Ballast"
 OFFER_SUMMARY="Cold email software built for modern teams and AI agents: $19/mo for 20,000 emails."
-VALUE_ASSET_NAME="2-minute video breakdown of how they cut delivery costs"
+CALENDAR_LINK="https://cal.com/your-name/15min"
 ```
 
 ### 3. Verify Connectivity
@@ -149,7 +149,7 @@ Through `https://ballast.to/api/mcp`, Claude has access to:
 | `set_sequence` | Copy & Steps | Registers multi-touch email steps, delays, subject lines, and bodies |
 | `add_leads_to_campaign` | Enrollment | Enrolls researched leads with customized variables |
 | `list_threads` | Unified Inbox | Fetches incoming prospect replies and conversation threads |
-| `send_reply` | Inbox Triage | Sends follow-up answers or calendar booking links directly to threads |
+| `send_reply` | Inbox Triage | Sends follow-up answers or Loom teardowns directly to threads |
 | `get_overview` | Analytics | Monitors mailbox health, warmup status, and delivery rates |
 
 ---
@@ -160,7 +160,7 @@ The agent adheres strictly to field-tested deliverability and conversion rules:
 1. **Under 125 Words:** Formatted to fit on a single mobile screen without scrolling.
 2. **One Verified Hook:** Anchored on tech stack, job openings, or recent company initiatives—never generic compliments.
 3. **One Measurable Outcome:** Demonstrates value through concrete peer metrics (e.g. *"cut bounce rates to under 0.8% across 40k monthly sends"*).
-4. **Low-Friction Ask (Zero Calendly Links):** Never drop Calendly or booking links into cold emails. Spam gateways actively flag calendar domains as cold sales traps, and busy buyers reject presumption. Always ask permission to share an asset (e.g. a 2-minute Loom teardown or 1-page framework) first.
+4. **Low-Friction Ask (Zero Calendly & Zero Attachments):** Never include Calendly links and never attach PDFs or decks (unsolicited attachments trigger spam quarantine). Always ask permission to share a concise 3-step text breakdown or a 2-minute Loom teardown directly in the thread.
 5. **Clean Plain Text:** Zero images, zero tracking pixel traps, and no attachments to ensure optimal inbox placement across Google Workspace and Microsoft 365.
 
 ---
