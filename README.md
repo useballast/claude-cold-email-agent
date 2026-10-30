@@ -1,7 +1,7 @@
 # Claude Cold Email Agent (AI SDR Starter Kit) 🤖✉️
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Powered by Anthropic Claude](https://img.shields.io/badge/Claude-3.5_Sonnet-D97706?logo=anthropic&logoColor=white)](https://anthropic.com)
+[![Powered by Anthropic Claude](https://img.shields.io/badge/Anthropic-Claude-D97706?logo=anthropic&logoColor=white)](https://anthropic.com)
 [![Model Context Protocol](https://img.shields.io/badge/Protocol-MCP-8B5CF6)](https://modelcontextprotocol.io)
 [![Ballast Platform](https://img.shields.io/badge/Platform-Ballast-0ea5e9)](https://ballast.to)
 
