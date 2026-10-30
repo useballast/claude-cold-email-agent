@@ -1,0 +1,29 @@
+[
+  {
+    "firstName": "Sarah",
+    "lastName": "Chen",
+    "email": "sarah.chen@growthscale.example.com",
+    "company": "GrowthScale",
+    "title": "Head of Growth",
+    "website": "https://growthscale.example.com",
+    "notes": "Scaling B2B outbound; currently spending $240/mo across multiple tools with seat limits. Looking for programmatic sending via AI agents."
+  },
+  {
+    "firstName": "Marcus",
+    "lastName": "Vance",
+    "email": "marcus.v@finflow.example.com",
+    "company": "FinFlow Payments",
+    "title": "VP of Revenue Operations",
+    "website": "https://finflow.example.com",
+    "notes": "Announced Series A expansion last month. Experiencing deliverability drops after migrating domains."
+  },
+  {
+    "firstName": "Elena",
+    "lastName": "Rostova",
+    "email": "elena@devpulse.example.com",
+    "company": "DevPulse",
+    "title": "Founder & CEO",
+    "website": "https://devpulse.example.com",
+    "notes": "Building an autonomous coding agent; wants to hook their Claude agent directly to an outbound mailbox engine without manual CSV imports."
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "name": "claude-cold-email-agent",
+  "version": "1.0.0",
+  "description": "AI SDR Starter Kit: Autonomous B2B cold outreach & inbox handling with Anthropic Claude and Ballast MCP.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "outbound": "tsx src/index.ts outbound",
+    "inbox": "tsx src/index.ts inbox",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai-sdr",
+    "cold-email",
+    "claude",
+    "anthropic",
+    "mcp",
+    "model-context-protocol",
+    "ballast",
+    "sales-agent",
+    "outreach-automation"
+  ],
+  "author": "Ballast (https://ballast.to)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/useballast/claude-cold-email-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/useballast/claude-cold-email-agent/issues"
+  },
+  "homepage": "https://github.com/useballast/claude-cold-email-agent#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "picocolors": "^1.1.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
