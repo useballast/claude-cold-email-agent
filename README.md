@@ -72,7 +72,7 @@ BALLAST_API_KEY=blst_live_...
 SENDER_NAME="Alex"
 SENDER_COMPANY="Ballast"
 OFFER_SUMMARY="Cold email software built for modern teams and AI agents: $19/mo for 20,000 emails."
-CALENDAR_LINK="https://cal.com/your-name/15min"
+VALUE_ASSET_NAME="2-minute video breakdown of how they cut delivery costs"
 ```
 
 ### 3. Verify Connectivity
