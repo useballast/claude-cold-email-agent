@@ -1,7 +1,7 @@
 {
   "name": "claude-cold-email-agent",
   "version": "1.0.0",
-  "description": "AI SDR Starter Kit: Autonomous B2B cold outreach & inbox handling with Anthropic Claude and Ballast MCP.",
+  "description": "An open-source TypeScript agent that connects Claude to Ballast over MCP to research leads, write short sequences, and triage replies.",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
